@@ -1,0 +1,46 @@
+{
+  "topicFilter": "outTopic",
+  "qos": 0,
+  "messages": [
+    {
+      "format": "json",
+      "topic": "outTopic",
+      "timestamp": 1638433147563,
+      "payload": {
+        "message": "Approximate your card to the reader..."
+      }
+    },
+    {
+      "format": "json",
+      "topic": "outTopic",
+      "timestamp": 1638433145596,
+      "payload": {
+        "message": " D7 58 82 D6 got entry "
+      }
+    },
+    {
+      "format": "json",
+      "topic": "outTopic",
+      "timestamp": 1638433124973,
+      "payload": {
+        "message": " D7 58 82 D6 filled wrong password "
+      }
+    },
+    {
+      "format": "json",
+      "topic": "outTopic",
+      "timestamp": 1638433109949,
+      "payload": {
+        "message": " D7 58 82 D6 Passed the Card Authentication"
+      }
+    },
+    {
+      "format": "json",
+      "topic": "outTopic",
+      "timestamp": 1638433100727,
+      "payload": {
+        "message": " B6 F5 07 55 Unrecognized Card"
+      }
+    }
+  ]
+}
