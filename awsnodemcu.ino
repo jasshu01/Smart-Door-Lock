@@ -18,7 +18,7 @@ const char *password = "133355555";
 WiFiUDP ntpUDP;
 NTPClient timeClient(ntpUDP, "pool.ntp.org");
 //
-const char *AWS_endpoint = "a1d7zgjv8pytti-ats.iot.ap-south-1.amazonaws.com"; //MQTT broker ip
+const char *AWS_endpoint = "XXXXXXXXXXXXXXX-ats.iot.ap-south-1.amazonaws.com"; //MQTT broker ip
 
 void callback(char *topic, byte *payload, unsigned int length)
 {
